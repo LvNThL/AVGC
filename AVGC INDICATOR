@@ -10,8 +10,8 @@ int smoothingLength1 = int(9)
 
 ma11(source, length, type) =>
     switch type
-        "SMA" => ta.ema(source, length)
-        "EMA" => ta.sma(source, length)
+        "SMA" => ta.sma(source, length)
+        "EMA" => ta.ema(source, length)
         "RMA" => ta.rma(source, length)
         "VWMA" => ta.vwma(source, length)
         "DEMA" => ta.dema(source, length)
@@ -19,7 +19,7 @@ ma11(source, length, type) =>
         "WMA" => ta.wma(source, length)
 ma21(source, length, type) =>
     switch type
-        "EMA" => ta.ema(source, length) 
+        "SMA" => ta.sma(source, length) 
 
 string typeMA111 = input.string("SMA", "Moving Average Type", ["SMA", "EMA", "RMA", "VWMA", "DEMA", "HMA", "WMA"], group = "User Input")
 

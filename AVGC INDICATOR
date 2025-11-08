@@ -90,11 +90,11 @@ colortheme7(type) =>
 
 string colortheme = input.string("Dark", "Color Theme", ["Light", "Dark"], group = "User Input")
 
-plot(_smoothedma1, color = colortheme1(colortheme), linewidth = 4)
-plot(_smoothedma2, color = colortheme2(colortheme), linewidth = 4)
-plot(_smoothedma3, color = colortheme3(colortheme), linewidth = 4)
-plot(_smoothedma4, color = colortheme4(colortheme), linewidth = 4)
-plot(_smoothedma5, color = colortheme5(colortheme), linewidth = 4)
-plot(_smoothedma6, color = colortheme6(colortheme), linewidth = 4)
-plot(_smoothedma7, color = colortheme7(colortheme), linewidth = 4)
+plot(_smoothedma1, color = colortheme1(colortheme), linewidth = 2)
+plot(_smoothedma2, color = colortheme2(colortheme), linewidth = 2)
+plot(_smoothedma3, color = colortheme3(colortheme), linewidth = 2)
+plot(_smoothedma4, color = colortheme4(colortheme), linewidth = 2)
+plot(_smoothedma5, color = colortheme5(colortheme), linewidth = 2)
+plot(_smoothedma6, color = colortheme6(colortheme), linewidth = 2)
+plot(_smoothedma7, color = colortheme7(colortheme), linewidth = 2)
 
